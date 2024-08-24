@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+
+}
+body {
+    background-image: url('rock\,paper\,and\ scissorsimage.jpg');
+  }
+h1{
+    background-color:black;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;/*text will come to center according to the given height*/
+    
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+
+}
+
+.choice:hover{
+    background-color: black;
+}
+
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/*fit in image more properly*/
+    border-radius: 50px;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+
+}
+
+#user-score,#computer-score,#DRAW-score{
+    font-size: 4rem;
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+
+}
+p{
+    color: black;
+}
+
+
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    background-color: #DBBF78;
+font-size: 4rem;
+display: inline;
+padding: 1rem;
+border-radius: 2rem;
+color: white;
+}
